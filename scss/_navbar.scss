@@ -1,0 +1,73 @@
+/* Navbar Celular */
+
+@media(max-width: 576px){
+    .navbar{
+        background-color: rgba(240, 128, 128, 0.726);
+        &-brand{
+            color:white !important;
+            font-family:$principal;
+        }
+
+        .nav-item{
+            a{
+                h1{
+                    color: white !important;
+                    font-family:$secundaria;
+                    font-size: $h1;
+                }
+            }
+        }
+
+
+        .dropdown-menu{
+            background-color:lightcoral;;
+            li{
+                :hover{
+                    background-color: rgb(223, 153, 153); ;
+                a{
+                    color:white !important;
+                    font-family:$secundaria;
+                    }
+                }
+            }
+        }
+    }
+
+    .img-thumbnail{
+        display: none;
+    }
+}
+
+/* Navbar Tablet / Desktop */
+
+@media(min-width: 577px){
+    .navbar{
+        height: 12rem;
+        &-brand{
+            font-family:$principal;
+            margin-top: -1rem;
+            margin-left: 1rem;
+            h1{
+                font-size: $h1;
+            }
+        }
+    }
+    .container-fluid{
+        display: flex;
+        flex-flow: column;
+    }
+    .img-thumbnail{
+        height: 8rem;
+        width: 18rem;
+        border: none;
+    }
+
+    .nav-item{
+        :hover{
+            color:lightcoral !important;
+        }
+        a{
+            font-family:$secundaria;
+        }
+    }
+}

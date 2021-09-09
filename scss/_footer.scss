@@ -1,0 +1,24 @@
+/* Footer */
+
+@import "variables";
+
+footer{
+    height: 4rem;
+    display: flex;
+    background-color: $coral;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    bottom: 0;
+    opacity: 80%;
+    a{
+        text-decoration: none;
+        i{
+            width: 3rem;
+            height: 3rem;
+            color: white;
+        }
+    }
+}
+
+
