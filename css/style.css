@@ -64,7 +64,6 @@ footer {
   background-color: #ecb1b1;
   justify-content: space-around;
   align-items: center;
-  position: sticky;
   bottom: 0;
   opacity: 80%;
 }
