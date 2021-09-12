@@ -93,13 +93,15 @@ footer a i {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #ecb1b1;
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
 }
 
 .indexCont__h3 {
   text-align: center;
-  color: white;
+  color: grey;
   font-family: "Oswald", sans-serif;
+  font-size: 3rem;
 }
 
 .separador {

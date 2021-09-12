@@ -29,11 +29,14 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: $coral;
+    background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+
     &__h3{
     text-align: center;
-    color: white;
+    color: grey;
     font-family: $secundaria;
+    font-size: 3rem;
     }
 }
 
