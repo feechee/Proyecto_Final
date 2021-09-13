@@ -2,22 +2,78 @@
 
 @import "variables";
 
-footer{
-    height: 4rem;
-    display: flex;
-    background-color: $coral;
-    justify-content: space-around;
-    align-items: center;
-    bottom: 0;
-    opacity: 80%;
-    a{
-        text-decoration: none;
-        i{
-            width: 3rem;
-            height: 3rem;
-            color: white;
+    .footer{
+        height: 15rem;
+        display: flex;
+        background-color: #ffdada;
+        align-items: center;
+        bottom: 0;
+        opacity: 80%;
+        flex-direction: column;
+        justify-content: flex-end;
+        &__contacto{
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            &__redes{
+                width: 15rem;
+                display: flex;
+                justify-content: space-around;
+                a{
+                    text-decoration: none;
+                    i{
+                        width: 3rem;
+                        height: 3rem;
+                        color: white;
+                    }
+                }
+            }
+            &__tel{
+                h3{
+                    color: white;
+                    font-family: $secundaria;
+                    font-size: $h3;
+                }
+                p{
+                    color: lightcoral;
+                    font-family: $secundaria;
+                }
+            }
+        }   
+        &__navBar{
+            width: 100vw;
+            ul{
+                width: 100vw;
+                display: flex;
+                justify-content: space-evenly;
+                border-top: solid lightcoral 1px;
+                border-bottom: solid lightcoral 1px;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: lightcoral;
+                        font-family: $secundaria;
+                        }
+                    }
+                }
+            }
+        
+        &__copyright{
+            margin-top: 2rem;
+            height: 1.5rem;
+            p{
+                color: lightcoral;
+                font-family: $secundaria;
+                font-size: 0.7rem;
+                a{
+                    text-decoration: none;
+                    color: lightcoral;
+                    font-family: $secundaria;
+                    font-size: 0.7rem;
+                }
+            }
         }
     }
-}
+    
 
 

@@ -58,24 +58,84 @@
 }
 
 /* Footer */
-footer {
-  height: 4rem;
+.footer {
+  height: 15rem;
   display: flex;
-  background-color: #ecb1b1;
-  justify-content: space-around;
+  background-color: #ffdada;
   align-items: center;
   bottom: 0;
   opacity: 80%;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-footer a {
+.footer__contacto {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__contacto__redes {
+  width: 15rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__contacto__redes a {
   text-decoration: none;
 }
 
-footer a i {
+.footer__contacto__redes a i {
   width: 3rem;
   height: 3rem;
   color: white;
+}
+
+.footer__contacto__tel h3 {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+}
+
+.footer__contacto__tel p {
+  color: lightcoral;
+  font-family: "Oswald", sans-serif;
+}
+
+.footer__navBar {
+  width: 100vw;
+}
+
+.footer__navBar ul {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: solid lightcoral 1px;
+  border-bottom: solid lightcoral 1px;
+}
+
+.footer__navBar ul li a {
+  text-decoration: none;
+  color: lightcoral;
+  font-family: "Oswald", sans-serif;
+}
+
+.footer__copyright {
+  margin-top: 2rem;
+  height: 1.5rem;
+}
+
+.footer__copyright p {
+  color: lightcoral;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.7rem;
+}
+
+.footer__copyright p a {
+  text-decoration: none;
+  color: lightcoral;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.7rem;
 }
 
 /* RESET */
@@ -187,6 +247,7 @@ h4 {
   flex-direction: column;
   align-items: center;
   background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
 }
 
 .divCont {

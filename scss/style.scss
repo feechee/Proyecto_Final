@@ -66,6 +66,7 @@
 }
 
 /*Seccion Productos */
+
 h4{
     color:white;
     background-color: $celeste;
@@ -113,6 +114,7 @@ h4{
     flex-direction: column;
     align-items: center;
     background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
 }
 
 .divCont{
