@@ -358,7 +358,7 @@ form legend {
   margin: 3rem;
   display: flex;
   flex-flow: row;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .flexIcono p {
