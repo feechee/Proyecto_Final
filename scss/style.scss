@@ -21,6 +21,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* INDEX */
 
 .indexCont{
@@ -105,6 +110,24 @@ h4{
         filter: opacity(0.9);
         transform: scale(1.04);
     }
+}
+
+.tarjetaOffcanvas{
+    font-family: $secundaria;
+    color: grey;
+    &__img{
+        width: 150px;
+        height: 200px;
+        background-size: cover;
+    }
+    &__texto{
+        margin-top: 2rem;
+        text-align: justify;
+    }
+}
+
+.offcanvas-title{
+    font-family: $secundaria;
 }
 
 /* Seccion Contacto */
@@ -198,5 +221,4 @@ form{
         padding-right: 1rem ;
     }
 }
-
 

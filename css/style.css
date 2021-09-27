@@ -145,6 +145,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 /* INDEX */
 .indexCont {
   margin-top: 10rem;
@@ -239,6 +244,26 @@ h4 {
 .gridContainer__item:hover {
   filter: opacity(0.9);
   transform: scale(1.04);
+}
+
+.tarjetaOffcanvas {
+  font-family: "Oswald", sans-serif;
+  color: grey;
+}
+
+.tarjetaOffcanvas__img {
+  width: 150px;
+  height: 200px;
+  background-size: cover;
+}
+
+.tarjetaOffcanvas__texto {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.offcanvas-title {
+  font-family: "Oswald", sans-serif;
 }
 
 /* Seccion Contacto */
